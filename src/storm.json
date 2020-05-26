@@ -1,0 +1,20 @@
+[
+  { "cardName": "Goblin Electromancer", "quantity": 4 },
+  { "cardName": "Baral, Chief of Compliance", "quantity": 4 },
+  { "cardName": "Pyretic Ritual", "quantity": 4 },
+  { "cardName": "Desperate Ritual", "quantity": 4 },
+  { "cardName": "Manamorphose", "quantity": 4 },
+  { "cardName": "Serum Visions", "quantity": 4 },
+  { "cardName": "Sleight of Hand", "quantity": 4 },
+  { "cardName": "Gifts Ungiven", "quantity": 4 },
+  { "cardName": "Past in Flames", "quantity": 2 },
+  { "cardName": "Grapeshot", "quantity": 2 },
+  { "cardName": "Opt", "quantity": 4 },
+  { "cardName": "Remand", "quantity": 2 },
+  { "cardName": "Empty the Warrens", "quantity": 1 },
+  { "cardName": "Spirebluff Canal", "quantity": 4 },
+  { "cardName": "Steam Vents", "quantity": 4 },
+  { "cardName": "Shivan Reef", "quantity": 4 },
+  { "cardName": "Island", "quantity": 4 },
+  { "cardName": "Mountain", "quantity": 1 }
+]
