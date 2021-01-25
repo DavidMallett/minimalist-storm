@@ -59,7 +59,7 @@ export class Island implements Land {
       throw new Error("land already tapped");
     }
     this.tapped = true;
-    gameState.blueManaFloating++;
+    gameState.pool.blueManaFloating++;
   }
 }
 
@@ -75,7 +75,7 @@ export class Mountain implements Land {
       throw new Error("land already tapped");
     }
     this.tapped = true;
-    gameState.redManaFloating++;
+    gameState.pool.redManaFloating++;
   }
 }
 
@@ -84,6 +84,12 @@ export class SteamVents implements Land {
   public subtype: string = "island mountain";
   public entersTapped: boolean = false;
   public tapped: boolean = false;
+
+  public constructor(payLife: boolean = true) {
+    if (payLife) {
+      
+    }
+  }
 
   public tap(): void {
     if (this.tapped) {

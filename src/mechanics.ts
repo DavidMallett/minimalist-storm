@@ -1,4 +1,4 @@
-export function nextStepOrPhase(phase: string, step: string): string[] {
+export function nextStepOrPhase(phase: string, step?: string): string[] {
     switch(phase) {
         case "Beginning":
             if (step === "Untap") {
